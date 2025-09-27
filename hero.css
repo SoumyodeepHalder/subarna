@@ -6,10 +6,15 @@
     align-items: center;
 }
 
-.hero > *:nth-child(1){
+/* .hero > *:nth-child(1){
     margin-top: 70px;
 }
 .hero > *:nth-child(2){
     margin-top: 50px;
     font-size: 70px;
+} */
+
+.hero img {
+    height: 30vh;
+    /* border: 1px solid red; */
 }
