@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --color1: rgb(0,0,0);
+    --color2: rgb(80,80,80)
+}
+
+body {
+    background-color: var(--color1);
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.nav {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleft {
+    margin-left: 50px;
+    color: yellow;
+}
+.navright a {
+    margin-right: 30px;
+}
+.navright .navelem:hover {
+    color: var(--color2);
+    transition: all 0.3s ease-in-out;
+}
+.join-button {
+    background-color: yellow;
+    padding: 10px 20px;
+    color: black;
+    border: 2px solid yellow;
+}
+.join-button:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
