@@ -12,11 +12,13 @@ html {
 
 :root {
     --color1: rgb(0,0,0);
-    --color2: rgb(80,80,80)
+    --color2: rgb(80,80,80);
+    --colorsub: rgb(0, 20, 20);
+    --colorsub2: rgb(0, 255, 255);
 }
 
 body {
-    background-color: var(--color1);
+    background-color: var(--colorsub);
     color: white;
 }
 
@@ -26,7 +28,7 @@ a {
 }
 
 .yellow {
-    color: yellow;
+    color: var(--colorsub);
 }
 
 #nav {
@@ -38,11 +40,12 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: var(--colorsub);
 }
 .navleft {
     margin-left: 50px;
-    color: yellow;
+    color: var(--colorsub2);
+    
 }
 .navright a {
     margin-right: 30px;
@@ -52,10 +55,10 @@ a {
     transition: all 0.3s ease-in-out;
 }
 .join-button {
-    background-color: yellow;
+    background-color: var(--colorsub2);
     padding: 10px 20px;
     color: black;
-    border: 2px solid yellow;
+    border: 2px solid var(--colorsub2);
 }
 .join-button:hover {
     background-color: black;
