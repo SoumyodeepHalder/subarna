@@ -110,3 +110,13 @@ body {
 .register-link p a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 470px){
+    .remember-forgot {
+        font-size: 12px;
+    }
+    .remember-forgot label {
+        display: flex;
+        align-items: center;
+    };
+}
