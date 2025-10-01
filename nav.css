@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    transition: all 0.2 ease-in-out;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -24,12 +29,16 @@ a {
     color: yellow;
 }
 
-.nav {
+#nav {
     height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
 }
 .navleft {
     margin-left: 50px;
@@ -57,7 +66,8 @@ a {
 .navrightmob {
     display: none;
     height: 300px;
-    position: absolute;
+    position: fixed;
+    top: 60px;
     right: 20px;
     flex-direction: column;
     justify-content: space-between;
