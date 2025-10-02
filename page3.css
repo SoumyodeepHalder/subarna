@@ -14,3 +14,25 @@
         margin-top: 100px;
     }
 }
+
+.shorts-parent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.shorts-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.shorts-parent h1 {
+    margin-bottom:100px;
+}
+
+.shorts {
+    height: 600px;
+}
